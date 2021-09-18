@@ -28,7 +28,7 @@ if auto == 1 or auto == 2 or auto == 3 or auto == 4:
     chrome_options.add_argument("--mute-audio")
     chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
 
-    driver = webdriver.Chrome(r"chromedriver.exe", options=chrome_options)
+    driver = webdriver.Chrome(r"C:\\web-driver\\chromedriver.exe", options=chrome_options)
     driver.set_window_size(1024, 650)
 
     Views = 0
